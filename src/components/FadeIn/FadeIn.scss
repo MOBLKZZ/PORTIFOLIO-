@@ -1,0 +1,24 @@
+.FadeIn {
+  .word {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .word > span,
+  .space {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+      opacity 0.5s ease,
+      transform 0.5s ease;
+  }
+
+  &.visible {
+    .word > span,
+    .space {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	background:#fffeec;
+	background-image: radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px);
+	background-size: 26px 26px;
+	height: 100dvh;
+	width: 100dvw;
+}
+
+.h1 {
+}

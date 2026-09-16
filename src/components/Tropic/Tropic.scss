@@ -1,0 +1,29 @@
+.Tropic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 5px;
+	
+  & .container-img {
+    height: 2rem;
+    width: 2rem;
+    background: #000;
+    border-radius: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		& img {
+			object-fit: container;
+			height: 60%;
+    }
+  }
+
+	& h1 {
+		font-family: "Poppins";
+		font-size: 16px;
+		font-weight: 700;
+	}
+	
+}

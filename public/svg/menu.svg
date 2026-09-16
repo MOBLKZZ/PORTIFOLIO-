@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 12 12" stroke="currentColor" stroke-width="2" fill="none">
+	<style>
+		.lines {
+			transition: d 0.3s ease;
+		}
+		
+		object.active .lines {
+			d: path("M3 3 L9 9 M3 9 L9 3")
+		}
+	</style>
+	
+	<path d="M0 3 L12 3 M0 9 L12 9" class="lines"/>
+</svg>
