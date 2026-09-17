@@ -1,3 +1,1 @@
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-  <path id="blob" d="M451,320Q442,390,383,434.5Q324,479,262,441Q200,403,150,381Q100,359,64,304.5Q28,250,73,202Q118,154,150,97Q182,40,250.5,38Q319,36,380.5,73.5Q442,111,451,180.5Q460,250,451,320Z" fill="#FDEDB1"></path>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500"><path fill="#fdedb1" d="M451 320q-9 70-68 114.5T262 441t-112-60-86-76.5T73 202t77-105 100.5-59 130 35.5 70.5 107 0 139.5"/></svg>
